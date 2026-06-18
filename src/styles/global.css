@@ -1,0 +1,48 @@
+/* ============================================
+   GLOBAL STYLES — PopX App
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple-primary: #6C25FF;
+  --purple-secondary: #CEA9FF;
+  --purple-light: #EDE5FF;
+  --bg: #F7F8F9;
+  --text-dark: #1D2226;
+  --text-gray: #717171;
+  --text-muted: #AAAAAA;
+  --border: #CBCBCB;
+  --white: #FFFFFF;
+  --error: #E53935;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 40px;
+
+  --font: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font);
+  background: #E8E8E8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
