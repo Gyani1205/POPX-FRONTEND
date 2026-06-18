@@ -1,5 +1,6 @@
 # PopX — React App
-
+LIVE url link
+https://popx-frontend-two.vercel.app
 A pixel-perfect React 18 implementation of the PopX mobile app design (Adobe XD).
 
 ## Tech Stack
